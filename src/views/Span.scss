@@ -1,0 +1,15 @@
+@import "../_config";
+@import "../_animation";
+
+.tip {
+  display: inline-block;
+  background-color: $accent;
+  margin: $spacing-tight;
+  padding: ($spacing-tight/2) $spacing-tight;
+  color: $white;
+  font-size: 18px;
+  border-radius: $spacing-default;
+  border: none;
+  cursor: pointer;
+  animation: bounce 800ms ease-out 4;
+}

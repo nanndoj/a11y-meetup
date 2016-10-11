@@ -1,0 +1,50 @@
+@import './../../../config';
+
+$menu-width: 50px;
+$menu-width-open: 200px;
+
+.menu-item {
+  a {
+    display: block;
+    padding: $spacing-default 0 $spacing-default $menu-width;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    white-space: nowrap;
+    text-decoration: none;
+    color: $white;
+  }
+
+  &:hover {
+    background-color: $turf-dark;
+  }
+
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: $spacing-default;
+
+  cursor: pointer;
+
+}
+
+.link-icon {
+  background-image: url(icons/link.svg);
+}
+
+.image-icon {
+  background-image: url(icons/image.svg);
+}
+
+.span-icon {
+  background-image: url(icons/span.svg);
+}
+
+.table-icon {
+  background-image: url(icons/table.svg);
+}
+
+.right-arrow-icon {
+  background-image: url(icons/right-arrow.svg);
+}
+
+.left-arrow-icon {
+  background-image: url(icons/left-arrow.svg);
+}

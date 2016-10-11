@@ -1,0 +1,14 @@
+@import '../config';
+
+.view {
+  display: flex;
+ }
+
+.view-menu {
+  margin-right: $spacing-default;
+}
+
+.view-content {
+  font-size: $font-large;
+  flex: 1;
+}

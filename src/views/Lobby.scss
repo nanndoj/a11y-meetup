@@ -1,0 +1,11 @@
+@import "../config";
+@import "../animation";
+
+.lobby-logo {
+  margin-top:         $spacing-default;
+  padding-left:       $spacing-default;
+  img {
+    animation: spin 15s linear infinite;
+    width: 80%;
+  }
+}

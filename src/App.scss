@@ -1,0 +1,35 @@
+@import './config';
+
+.App-logo {
+  height: 40px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background-color: $turf-light;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  padding: $spacing-default;
+  color: white;
+}
+
+
+.app-main-bar {
+  background-color: $turf-dark;
+  height: 10px;
+  padding: $spacing-default;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.app-content {
+  flex-grow: 1;
+  padding: $spacing-default;
+}
